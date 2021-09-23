@@ -6,6 +6,7 @@ const { BadRequestError } = require("./app/helpers/errors");
 
 
 const app = express();
+
 setupContactRoutes(app);
 
 
